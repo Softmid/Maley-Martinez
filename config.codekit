@@ -3898,6 +3898,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/icon-radio.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3515,
+		"inputAbbreviatedPath": "\/assets\/img\/icon-radio.png",
+		"outputAbbreviatedPath": "\/assets\/img\/icon-radio.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/imagen-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15686,
+		"inputAbbreviatedPath": "\/assets\/img\/imagen-1.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/imagen-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/imagen-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33521,
+		"inputAbbreviatedPath": "\/assets\/img\/imagen-2.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/imagen-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/imagen-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21040,
+		"inputAbbreviatedPath": "\/assets\/img\/imagen-3.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/imagen-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/logo-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,

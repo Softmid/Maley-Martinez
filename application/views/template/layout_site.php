@@ -8,7 +8,7 @@
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-		<meta http-equiv="X-UA-Compatible" content="IE=7">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <base href="<? echo base_url(); ?>"></base>
         <link rel="shortcut icon" href="assets/img/logo-icon.png">

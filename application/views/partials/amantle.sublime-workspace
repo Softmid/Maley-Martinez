@@ -467,71 +467,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "application/views/site/home/home.php",
-			"settings":
-			{
-				"buffer_size": 3608,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/css/site/4-pages/variable.scss",
-			"settings":
-			{
-				"buffer_size": 2239,
-				"line_ending": "Unix",
-				"name": "variable.scss"
-			}
-		},
-		{
-			"file": "application/views/partials/footer_site.php",
-			"settings":
-			{
-				"buffer_size": 1,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "application/views/template/layout_site.php",
-			"settings":
-			{
-				"buffer_size": 1174,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/js/functions.js",
-			"settings":
-			{
-				"buffer_size": 167,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/css/site/4-pages/_-pages-index.sass",
-			"settings":
-			{
-				"buffer_size": 19,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/css/site/3-modules/nav-bar.scss",
-			"settings":
-			{
-				"buffer_size": 1701,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "application/views/partials/navbar_site.php",
-			"settings":
-			{
-				"buffer_size": 949,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -617,7 +552,6 @@
 	},
 	"file_history":
 	[
-		"/Applications/MAMP/htdocs/Maley-Martinez/assets/css/1-tools/_fonts.scss",
 		"/Applications/MAMP/htdocs/Maley-Martinez/application/controllers/site.php",
 		"/Applications/MAMP/htdocs/Maley-Martinez/application/views/partials/navbar_site.php",
 		"/Applications/MAMP/htdocs/Maley-Martinez/assets/css/site/3-modules/nav-bar.scss",
@@ -744,7 +678,8 @@
 		"/Applications/MAMP/htdocs/fnyasociados/application/views/partials/navbar.php",
 		"/Applications/MAMP/htdocs/fnyasociados/application/controllers/usuarios.php",
 		"/Applications/MAMP/htdocs/fnyasociados/application/views/usuarios/proceso_pago.php",
-		"/Applications/MAMP/htdocs/fnyasociados/application/controllers/verificar_usuario.php"
+		"/Applications/MAMP/htdocs/fnyasociados/application/controllers/verificar_usuario.php",
+		"/Applications/MAMP/htdocs/fnyasociados/application/models/factura.php"
 	],
 	"find":
 	{
@@ -860,225 +795,8 @@
 	"groups":
 	[
 		{
-			"selected": 5,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "application/views/site/home/home.php",
-					"settings":
-					{
-						"buffer_size": 3608,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3552,
-								3552
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 55.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "assets/css/site/4-pages/variable.scss",
-					"settings":
-					{
-						"buffer_size": 2239,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1884,
-								1884
-							]
-						],
-						"settings":
-						{
-							"auto_name": "variable.scss",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1270.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "application/views/partials/footer_site.php",
-					"settings":
-					{
-						"buffer_size": 1,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "application/views/template/layout_site.php",
-					"settings":
-					{
-						"buffer_size": 1174,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								482,
-								482
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "assets/js/functions.js",
-					"settings":
-					{
-						"buffer_size": 167,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								147,
-								147
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "assets/css/site/4-pages/_-pages-index.sass",
-					"settings":
-					{
-						"buffer_size": 19,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								19,
-								19
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "assets/css/site/3-modules/nav-bar.scss",
-					"settings":
-					{
-						"buffer_size": 1701,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1192,
-								1192
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 594.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "application/views/partials/navbar_site.php",
-					"settings":
-					{
-						"buffer_size": 949,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								463,
-								463
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

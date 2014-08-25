@@ -52,6 +52,8 @@
 		@include clearfix();
 		position: relative;
 		height: 100px;
+		width: 1200px;
+		margin: 0px auto;
 		.menu-header
 		{
 			margin: 0px;
@@ -62,8 +64,11 @@
 			margin-top: 20px;
 			> li {
 				float: left;
-				margin: 0px 17px;
+				margin: 0px 14px;
 				line-height: 50px;
+				&:hover > a, &:focus > a, &.active > a {
+					background-color: rgba(255, 255, 255, 0.3);
+				}
 				> a {
 					display: block;
 					width: 100%;
@@ -72,9 +77,6 @@
 					color: #fff;
 					text-decoration: none;
 					padding: 0px 10px;
-					&:hover, &:focus {
-						background-color: rgba(255, 255, 255, 0.3);
-					}
 				}
 			}
 		}

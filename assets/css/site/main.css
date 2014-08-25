@@ -144,10 +144,17 @@ td, th {
   padding: 0; }
 
 @font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Open Sans"), local("OpenSans"), url(//themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format("woff"); }
+  font-family: 'RaspoutineDemiBold';
+  src: url("../../fonts/RaspoutineDemiBold_TB.eot");
+  src: local("☺"), url("../../fonts/RaspoutineDemiBold_TB.woff") format("woff"), url("../../fonts/RaspoutineDemiBold_TB.ttf") format("truetype"), url("../../fonts/RaspoutineDemiBold_TB.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'BebasNeue';
+  src: url("../../fonts/BebasNeue Book.eot");
+  src: local("☺"), url("../../fonts/BebasNeue Book.woff") format("woff"), url("../../fonts/BebasNeue Book.ttf") format("truetype"), url("../../fonts/BebasNeue Book.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -7125,7 +7132,9 @@ body {
     background-position: -9px -8px; }
   .header-site .header-2 {
     position: relative;
-    height: 100px; }
+    height: 100px;
+    width: 1200px;
+    margin: 0px auto; }
     .header-site .header-2:before, .header-site .header-2:after {
       content: " ";
       display: table; }
@@ -7140,8 +7149,10 @@ body {
       margin-top: 20px; }
       .header-site .header-2 .menu-header > li {
         float: left;
-        margin: 0px 17px;
+        margin: 0px 14px;
         line-height: 50px; }
+        .header-site .header-2 .menu-header > li:hover > a, .header-site .header-2 .menu-header > li:focus > a, .header-site .header-2 .menu-header > li.active > a {
+          background-color: rgba(255, 255, 255, 0.3); }
         .header-site .header-2 .menu-header > li > a {
           display: block;
           width: 100%;
@@ -7150,8 +7161,6 @@ body {
           color: #fff;
           text-decoration: none;
           padding: 0px 10px; }
-          .header-site .header-2 .menu-header > li > a:hover, .header-site .header-2 .menu-header > li > a:focus {
-            background-color: rgba(255, 255, 255, 0.3); }
     .header-site .header-2 .img {
       background: url("../../img/header/header-2.png") no-repeat;
       width: 230px;
@@ -7169,26 +7178,102 @@ a  {
 
 .section {
   background-size: cover !important;
-  top: 0px !important; }
+  top: 0px !important;
+  position: relative; }
 
 .section-1 {
   background: url("../../img/fondo-1.jpg") no-repeat;
-  background-position: 0px -50px; }
+  background-position: 0px -45px;
+  position: relative; }
+  .section-1 .sect-50 {
+    width: 50%;
+    height: 100%;
+    display: block;
+    padding-top: 23%; }
+    .section-1 .sect-50 .texto {
+      position: relative; }
+      .section-1 .sect-50 .texto #titulo-1 {
+        font-family: 'RaspoutineDemiBold';
+        margin: 0px;
+        margin-left: 8%;
+        color: #954B97; }
+      .section-1 .sect-50 .texto #titulo-2 {
+        font-family: 'RaspoutineDemiBold';
+        margin: 0px;
+        margin-left: 22%;
+        color: #954B97; }
+      .section-1 .sect-50 .texto #texto-1 {
+        font-family: 'RaspoutineDemiBold';
+        color: #fff;
+        margin-left: 8%;
+        margin-top: 20px;
+        margin-bottom: 0px; }
+      .section-1 .sect-50 .texto #texto-2 {
+        background: url("../../img/icon-radio.png") no-repeat;
+        background-position: 0px 0px;
+        color: #A2222F;
+        font-family: 'RaspoutineDemiBold';
+        padding-left: 50px;
+        background-size: 36px;
+        margin-left: 10%;
+        margin-top: 0px; }
+      .section-1 .sect-50 .texto #texto-3 {
+        font-family: 'BebasNeue';
+        color: #fff;
+        margin-left: 8%;
+        text-transform: uppercase; }
+        .section-1 .sect-50 .texto #texto-3 > a {
+          color: #954B97;
+          text-decoration: none; }
+    .section-1 .sect-50 .texto-footer {
+      margin-top: 10%; }
 
 .section-2 {
   background: url("../../img/fondo-2.jpg") no-repeat;
-  background-position: 0px -50px; }
+  background-position: 0px -45px;
+  position: relative; }
+  .section-2 .sect-100 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    padding-top: 11%; }
+    .section-2 .sect-100 .sect-50 {
+      width: 50%;
+      height: 85%;
+      display: block;
+      position: relative;
+      float: left; }
+      .section-2 .sect-100 .sect-50 h3 {
+        margin: 0px;
+        color: #fff;
+        font-size: 32px;
+        text-align: center; }
+      .section-2 .sect-100 .sect-50 .img {
+        width: 100%;
+        height: 186px;
+        background-size: cover !important;
+        margin-bottom: 10px; }
+      .section-2 .sect-100 .sect-50 p {
+        color: #fff;
+        font-size: 10px;
+        line-height: 11px;
+        margin: 5px 0px;
+        padding: 3px 0px; }
+      .section-2 .sect-100 .sect-50 .img-1 {
+        margin-top: 10%;
+        margin-left: 11%;
+        margin-bottom: 2%;
+        width: 400px; }
+      .section-2 .sect-100 .sect-50 .img-2 {
+        width: 400px;
+        margin-left: 11%; }
+    .section-2 .sect-100 .padding {
+      padding-left: 8%;
+      bottom: 3%;
+      position: absolute; }
+    .section-2 .sect-100 .left {
+      left: 50%; }
 
-@font-face {
-  font-family: 'Conv_Myriad';
-  src: url("fonts/Myriad.eot");
-  src: local("☺"), url("fonts/Myriad.woff") format("woff"), url("fonts/Myriad.ttf") format("truetype"), url("fonts/Myriad.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-/** Generated by FG **/
-@font-face {
-  font-family: 'Conv_Myriad';
-  src: url("fonts/Myriad.eot");
-  src: local("☺"), url("fonts/Myriad.woff") format("woff"), url("fonts/Myriad.ttf") format("truetype"), url("fonts/Myriad.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+.nombre {
+  font-size: 43px; }

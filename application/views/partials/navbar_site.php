@@ -9,7 +9,7 @@
     </div>
     <div class="header-2">
         <ul class="menu-header menu">
-            <li data-menuanchor="primeraPage"><a href="#primeraPage">Página Principal</a></li>
+            <li data-menuanchor="primeraPage" class="active"><a href="#primeraPage">Página Principal</a></li>
             <li data-menuanchor="segundaPage"><a href="#segundaPage">Sobre Mely</a></li>
             <li><a href="">Podcast</a></li>
         </ul>
