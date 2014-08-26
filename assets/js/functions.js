@@ -1,8 +1,9 @@
 $( document ).ready(function() {
 	$('#fullpage').fullpage({
-		anchors: ['primeraPage', 'segundaPage', '3rdPage', '4thpage', 'lastPage'],
+		anchors: ['home', 'about', 'podcast', 'articulos', 'conferencias','galeria','contacto'],
 		menu: '.menu'
 	});
-  //
+    
+    $('.slider-conferencias').bxSlider();
 
 });

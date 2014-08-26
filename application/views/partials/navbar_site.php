@@ -9,16 +9,16 @@
     </div>
     <div class="header-2">
         <ul class="menu-header menu">
-            <li data-menuanchor="primeraPage" class="active"><a href="#primeraPage">Página Principal</a></li>
-            <li data-menuanchor="segundaPage"><a href="#segundaPage">Sobre Mely</a></li>
-            <li><a href="">Podcast</a></li>
+            <li data-menuanchor="home" ><a href="#home" >Página Principal</a></li>
+            <li data-menuanchor="about" ><a href="#about" >Sobre Mely</a></li>
+            <li data-menuanchor="podcast"><a href="#podcast" >Podcast</a></li>
         </ul>
         <div class="img"></div>
         <ul class="menu-header menu">
-            <li><a href="">Artículos</a></li>
-            <li><a href="">Conferencias</a></li>
-            <li><a href="">Galería</a></li>
-            <li><a href="">Contacto</a></li>
+            <li data-menuanchor="articulos"><a href="#articulos">Artículos</a></li>
+            <li data-menuanchor="conferencias"><a href="#conferencias">Conferencias</a></li>
+            <li data-menuanchor="galeria"><a href="#galeria">Galería</a></li>
+            <li data-menuanchor="contacto"><a href="#contacto">Contacto</a></li>
         </ul>
     </div>
 </header>

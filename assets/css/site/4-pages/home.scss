@@ -1,0 +1,60 @@
+
+.section-1 {
+	background: url('../../img/fondo-1.jpg') no-repeat;
+	background-position: 0px -45px;
+	position: relative;
+	.sect-50 {
+		width: 50%;
+		height: 100%;
+		display: block;
+		padding-top: 23%;
+		.texto {
+			position: relative;
+			#titulo-1 {
+				font-family: 'RaspoutineDemiBold';
+				margin: 0px;
+				margin-left: 8%;
+				color: #954B97;
+			}
+			#titulo-2 {
+				font-family: 'RaspoutineDemiBold';
+				margin: 0px;
+				margin-left: 22%;
+				color: #954B97; 
+			}
+			#texto-1 {
+				font-family: 'RaspoutineDemiBold';
+				color: #fff;
+				margin-left: 8%;
+				margin-top: 20px;
+				margin-bottom: 0px;
+			}
+			#texto-2 {
+				background: url('../../img/icon-radio.png') no-repeat;
+				background-position: 0px 0px;
+				color: #A2222F;
+				font-family: 'RaspoutineDemiBold';
+				padding-left: 50px;
+				background-size: 36px;
+				margin-left: 10%;
+				margin-top: 0px;
+			}
+			#texto-3 {
+				font-family: 'BebasNeue';
+				color: #fff;
+				margin-left: 8%;
+				text-transform: uppercase;
+				> a {
+					color: #954B97;
+					text-decoration: none;
+				}
+			}
+		}
+		.texto-footer {
+			margin-top: 10%;
+		}
+	}
+}
+
+
+

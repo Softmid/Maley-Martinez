@@ -1,4 +1,4 @@
-<div class="section section-1 active" data-anchor="slide1" id="section0">
+<div class="section section-1 active">
 	<div class="sect-50">
 		<div class="texto">
 			<h1 id="titulo-1">La voz femenina</h1>
@@ -14,7 +14,7 @@
 	</div>
 </div>
 
-<div class="section section-2" data-anchor="slide2" id="section1">
+<div class="section section-2">
 	<div class="sect-100">
 		<div class="sect-50">
 			<div class="sect-50 padding">
@@ -44,5 +44,50 @@
 			<img class="img-1" src="assets/img/imagen-2.jpg">
 			<img class="img-2" src="assets/img/imagen-3.jpg">
 		</div>
+	</div>
+</div>
+
+<div class="section fondo" >
+	<div class="sect-100">
+	    
+		<div class="sect-50">
+        </div>	
+	</div>
+</div>
+
+<div class="section fondo"  >
+	<div class="sect-100">
+           
+		<div class="sect-50">
+        </div>
+				
+	</div>
+</div>
+
+<div class="section fondo conferencias" >
+	<div class="sect-100">
+	    
+		<div class="sect-50">
+            <ul class="slider-conferencias">
+            <li><img src="../../../../assets/img/imagen-1.jpg"/></li>
+            <li><img src="../../../../assets/img/imagen-2.jpg" /></li>
+            </ul>
+        </div>			
+	</div>
+</div>
+
+<div class="section fondo" >
+	<div class="sect-100">
+		<div class="sect-50">
+        </div>
+				
+	</div>
+</div>
+
+<div class="section fondo" >
+	<div class="sect-100">
+		<div class="sect-50">
+        </div>
+				
 	</div>
 </div>

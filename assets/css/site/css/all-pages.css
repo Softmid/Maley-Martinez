@@ -1,0 +1,14 @@
+@charset "UTF-8";
+body {
+  font-size: 14px !important; }
+
+a  {
+  text-decoration: none !important; }
+
+.section {
+  background-size: cover !important;
+  top: 0px !important;
+  position: relative; }
+
+.nombre {
+  font-size: 43px; }
