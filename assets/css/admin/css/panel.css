@@ -1,0 +1,43 @@
+/*
+Error: Invalid CSS after "...@btn-dark-color": expected "{", was "; @btn-dark-bg;..."
+        on line 102 of /Applications/MAMP/htdocs/Maley-Martinez/assets/css/admin/4-pages/panel.scss
+
+97: 		font-weight: bold;
+98: 	}
+99: }
+100: 
+101: .btn-dark {
+102: 	.button-variant(@btn-dark-color; @btn-dark-bg; @btn-dark-border);
+103: }
+104: 
+105: .search-block {
+106: 	padding-top: 15px;
+107: 	padding-bottom: 15px;
+
+Backtrace:
+/Applications/MAMP/htdocs/Maley-Martinez/assets/css/admin/4-pages/panel.scss:102
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1163:in `expected'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1099:in `expected'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1094:in `tok!'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:641:in `block'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:661:in `block_child'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:650:in `block_contents'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:642:in `block'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:635:in `ruleset'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:660:in `block_child'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:653:in `block_contents'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:42:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:393:in `_to_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:268:in `render'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:404:in `run'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:62:in `process_result'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/scss:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...@btn-dark-color\": expected \"{\", was \"; @btn-dark-bg;...\"\A         on line 102 of /Applications/MAMP/htdocs/Maley-Martinez/assets/css/admin/4-pages/panel.scss\A \A 97: 		font-weight: bold;\A 98: 	}\A 99: }\A 100: \A 101: .btn-dark {\A 102: 	.button-variant(@btn-dark-color; @btn-dark-bg; @btn-dark-border);\A 103: }\A 104: \A 105: .search-block {\A 106: 	padding-top: 15px;\A 107: 	padding-bottom: 15px;"; }

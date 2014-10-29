@@ -21,16 +21,15 @@ function active($a, $b)
 					</button>
 					<?php endif ?>
 
-					<a class="navbar-brand" href="/"><span>Froggy</span></a>
+					<a class="navbar-brand" href="/"><span>Mely</span></a>
 				</div>
 
 				<?php if ($this->session->userdata('id')): ?>				
 				<div class="collapse navbar-collapse navbar-ex1-collapse">					
 					<ul class="nav navbar-nav">
-						<li <? active('banners', $active)?>><a href="/banners">Banner</a></li>
-						<li <? active('productos', $active)?>><a href="/productos">Productos</a></li>
-						<li <? active('categorias', $active)?>><a href="/categorias">Categorías</a></li>
 						<li <? active('usuarios', $active)?>><a href="/usuarios">Usuarios</a></li>
+						<li <? active('blogs', $active)?>><a href="/blogs">Blog</a></li>
+						<li <? active('categorias', $active)?>><a href="/categorias">Categorias</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="/usuarios/logout"><i class="fa fa-power-off"></i>Salir</a></li>

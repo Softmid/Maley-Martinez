@@ -1,0 +1,46 @@
+.podcast
+{
+    position: relative;
+    .fondo-podcast
+    {
+        background-color: #5E5F61;
+        height: 145px;
+        
+        
+        @media (max-width: 991px)
+        {
+            background-color: currentColor;
+            height: inherit;
+        }
+        
+        .abajo
+        {
+            position: absolute;
+            bottom: 10px;
+            
+            h3
+            {
+              color: #00A9E7;  
+            }
+            h4
+            {
+                color: white;
+            }
+            
+            .radio-link
+            {
+                background-color: #4CA7CD;
+                text-align: left;
+                line-height: 40px;
+                margin-top: 2%;
+                
+                a 
+                {
+                    color: white;
+                }
+            }
+
+        }
+    }
+    
+}

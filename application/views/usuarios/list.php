@@ -13,16 +13,16 @@
 	<div class="input-group col-sm-6 col-12 search-block">
 		<input type="text" name="buscar" placeholder="buscar" value="<?php echo $buscar ?>" class="form-control">
 		<span class="input-group-btn">
-			<button type="submit" class="btn btn-default"><i class="icon-search"></i></button>
+			<button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
 		<?php if (!empty($buscar)): ?>
-			<a href="/usuarios" class="btn btn-default"><i class="icon-undo"></i></a>
+			<a href="/usuarios" class="btn btn-default"><i class="fa fa-undo"></i></a>
 		<?php endif ?>
 
 		</span>
 	</div>			
 	
 	<div class="col-sm-6 col-12 search-block">
-		<a href="./usuarios/nuevo" class="btn btn-success"><i class="icon-plus"></i> Agregar Usuario</a>
+		<a href="./usuarios/nuevo" class="btn btn-success"><i class="fa fa-plus"></i> Agregar Usuario</a>
 	</div>
 
 	<div class="col-12">
@@ -42,7 +42,7 @@
 				<tr>
 					<td colspan="7" class="row-fluid">						
 						<div class="col-12">
-							<button type="button" class="btn btn-danger btn-sm" id="btn-delete"><i class="icon-trash"></i> Eliminar Seleccion</button>
+							<button type="button" class="btn btn-danger btn-sm" id="btn-delete"><i class="fa fa-trash"></i> Eliminar Seleccion</button>
 						</div>
 						<div class="col-12 hidden-sm text-center">
 							<?php echo $pages ?>
@@ -67,9 +67,9 @@
 					<td class="text-center visible-lg"><?php echo $row->creado ?></td>
 					<td class="table-crud-options">
 						<div class="btn-group">
-							<a href="./usuarios/detalle/<?php echo $row->id; ?>" class="btn btn-default" title="detalles" data-toggle="modal" data-target="#detalle-usuario<?php echo $row->id; ?>"><i class="icon-user"></i></a>
-							<a href="/usuarios/editar/<?php echo $row->id; ?>" class="btn btn-default" title="editar"><i class="icon-pencil"></i></a>
-							<a href="/usuarios/eliminar/<?php echo $row->id; ?>" class="btn btn-danger<?php echo ($row->id == 1 || $row->usuario == 'admin') ? ' disabled':'' ?>" title="eliminar"><i class="icon-trash"></i></a>
+							<a href="./usuarios/detalle/<?php echo $row->id; ?>" class="btn btn-default" title="detalles" data-toggle="modal" data-target="#detalle-usuario<?php echo $row->id; ?>"><i class="fa fa-user"></i></a>
+							<a href="/usuarios/editar/<?php echo $row->id; ?>" class="btn btn-default" title="editar"><i class="fa fa-pencil"></i></a>
+							<a href="/usuarios/eliminar/<?php echo $row->id; ?>" class="btn btn-danger<?php echo ($row->id == 1 || $row->usuario == 'admin') ? ' disabled':'' ?>" title="eliminar"><i class="fa fa-trash"></i></a>
 						</div>
 					</td>
 				</tr>

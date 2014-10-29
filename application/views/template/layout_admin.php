@@ -10,15 +10,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <base href="<? echo base_url(); ?>"></base>
         <link rel="stylesheet" href="assets/css/admin/main.css">
-        <script src="assets/js/min/main-ck.js"></script>
+        <script src="assets/js/min/main-panel-min.js"></script>
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 		<title><?php echo $title ?></title>
 		<? echo $_styles ?>
 	</head>
 	<body>
 		<?php echo $navbar_admin ?>
-		<div class="container">
-			<?php echo $content ?>
-		</div>
+		    <div class="container">
+		        <?php echo $content ?>
+		    </div>
 		<?php echo $footer_admin ?>
 		<!--- scripts area -->
 		<?php echo $_scripts; ?>

@@ -1,0 +1,180 @@
+
+.purechat-poweredby-container
+{
+	display: none !important;
+}
+
+.purechat-widget .purechat-expanded, .purechat-widget .purechat-collapsed-outer
+{
+	background-color: transparent !important;
+}
+
+.purechat-widget .purechat-expanded .purechat-widget-title-link, .purechat-window .purechat-expanded .purechat-widget-title-link, .purechat-widget .purechat-collapsed-outer .purechat-widget-title-link, .purechat-window .purechat-collapsed-outer .purechat-widget-title-link
+{
+	background: transparent url(../img/logo-icon.png) no-repeat;
+	background-size: 25px;
+	padding-left: 30px;
+}
+
+.purechat-widget img, .purechat-window img
+{
+	display: none !important;
+}
+
+
+.disabled
+{
+	cursor: not-allowed;
+	background-color: #eeeeee;
+	display: block;
+}
+/* inactivo */
+
+.inactivo
+{
+	background-color: rgba(89, 90, 95, 0.35) !important;
+}
+
+.img-categoria {
+	margin-right: 5px;
+}
+
+// lista eliminar
+.list-editar {
+	float: right;
+	top: 13px;
+	position: absolute;
+	right: 50px;
+}
+
+.list-eliminar {
+	float: right;
+	top: 13px;
+	position: absolute;
+	right: 5px;
+}
+
+.clear:after
+{
+	clear: both;
+	float: none;
+	display: block;
+	content: " ";
+}
+
+body {
+	padding-top: 70px;
+}
+
+.navbar-brand {
+	background: transparent url(../img/logo-nav.png) no-repeat top left;
+	width: 124px;
+	height: 70px;
+	margin: 3px 0px;
+	background-size: contain;
+	background-position: center;
+    
+	span {
+		display: none;
+        color: white;
+	}
+}
+
+.navbar-nav > li > a
+{
+	line-height: 46px;
+}
+
+.form-login {
+	padding-left: 15px;
+	padding-right: 15px;
+
+	h2 {
+		color: #04508b;
+	}
+	div.col-12 {
+		margin-bottom: 15px;
+	}
+	.btn-block {
+		font-weight: bold;
+	}
+}
+
+.btn-dark {
+	@include button-variant($btn-dark-color, $btn-dark-bg, $btn-dark-border);
+}
+
+.search-block {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	&.pull-right {
+		padding-right: 10px;
+	}
+}
+
+.text-label {
+	font-weight: bold;
+	display: block;
+	clear: both;
+}
+
+.span-underlined, .span-underlined-last {
+	border-bottom: 1px solid $table-border-color;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.btn-crud {
+	text-align: center;
+}
+
+.table-crud {
+	th {
+		text-align: center !important;
+	}
+}
+
+.table-crud-options {
+	text-align: center;
+	.btn-group {
+		white-space: nowrap;
+	}
+
+	.btn {
+		padding: $padding-small-vertical $padding-small-horizontal;
+		font-size: $font-size-small;
+		line-height: 1.5; // ensure proper height of button next to small input
+		border-radius: $border-radius-small;
+	}
+}
+
+@media (min-width: $screen-tablet) {
+	.table-crud-options {
+		text-align: center;
+		.btn {
+			padding: $padding-base-vertical $padding-base-horizontal;
+			font-size: $font-size-base;
+			line-height: $line-height-base;
+			border-radius: $border-radius-base;
+		}
+	}
+
+	.span-underlined-last {
+		border-bottom: 0;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	.form-login {
+		width:300px;
+		margin: 40px auto;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
+@media (min-width: $screen-desktop) {
+	.btn-crud {
+		text-align: left;
+	}
+}

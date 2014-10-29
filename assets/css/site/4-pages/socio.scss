@@ -1,0 +1,50 @@
+.socio
+{
+    color: white;
+    
+    
+        h1
+        {
+            color: white;
+            text-transform: uppercase;
+            font-family: 'BebasNeue';
+            font-size: 150px;
+            margin-bottom: 0px;
+            font-weight: 500;
+            vertical-align: text-bottom;
+            text-align: center;
+        }
+        
+        h3
+        {
+            color: #AA4A9B;
+            text-transform:capitalize;
+            font-family: 'RaspoutineDemiBold';
+            font-size: 40px;
+            font-style: italic;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: 500;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            text-align: center;
+        }
+        p
+        {    
+            font-family: 'BebasNeue';
+            font-size: 22px;
+            color: white;
+            font-size-adjust: auto;
+            text-align: center;
+            word-spacing: normal;
+        }
+        button
+        {
+            background-color: #AA4A9B;
+            border: 0px;
+            color: white;
+            text-transform: uppercase;
+            border-radius: 0px;
+        }
+    
+}

@@ -1,8 +1,35 @@
 .conferencias
 {
-    .sect-50 {
-			width: 50%;
-			display: block;
-			position: relative;
+   .slider
+    {
+        margin-bottom: 25px;
+    }
+    
+//    .bx-wrapper .bx-prev {
+//    left: 10px;
+//    background-image: url(../../img/slider/arrow-prev.png);
+//    }
+//
+//    .bx-wrapper .bx-next {
+//    right: 10px;
+//    background: url(../../img/slider/arrow-next.png);
+//    }
+    
+    p
+    {
+        color: white;
+        font-size: 11px;
+    }
+    h3
+    {
+        color: white;
+    }
+    .azul
+    {
+        color: #4CC4D8;
+    }
+    .abajo
+    {
+        margin-top: 15px;
     }
 }

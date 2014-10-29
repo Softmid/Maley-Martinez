@@ -9,9 +9,8 @@ a {
 
 .section {
 	background-size: cover !important;
-	top: 0px !important;
-	position: relative;
 }
+
 
 .nombre {
 	font-size: 43px;
@@ -19,20 +18,19 @@ a {
 
 .fondo {
 	background: url('../../img/fondo-2.jpg') no-repeat;
-	background-position: 0px -45px;
-	position: relative;
-	.sect-100 {
-		width: 100%;
-		height: 100%;
-		display: block;
-		position: relative;
-		padding-top: 11%;
-		.sect-50 {
-			width: 50%;
-			height: 85%;
-			display: block;
-			position: relative;
-			float: left;
+	
+    
+   
+}
+
+ .contenido
+    {
+        margin-top: 15%;
+
+        @media (max-width: 991px) {
+            margin-top: 5%;
+        }
+        @media (max-width: 1199px) and (min-width:991px) {
+            margin-top: 17%;
         }
     }
-}

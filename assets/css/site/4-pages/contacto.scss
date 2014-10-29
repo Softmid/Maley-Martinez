@@ -1,0 +1,101 @@
+.contacto
+{
+    color: white;
+        
+        p 
+        {
+            text-align: left;
+        }
+        
+       .fa-quote-left
+        {
+            color: #8F9194;
+        }
+        
+        .fa-quote-right
+        {
+            color: #8F9194;
+        }
+        
+        .twitter
+        {
+            background-color: #434244;
+            box-shadow: 6px 5px 2px #201C1D;
+            width: 80px;
+            text-align: center;
+            
+            a 
+            {
+                text-decoration: none;
+            }
+            
+            span 
+            {
+                color: white;
+            }
+        }
+       
+    }
+    
+     .footer
+        {
+            margin-top: 5%;
+            .linea
+            {
+                background-color: #4CC4D8;
+                height: 10px;
+            }
+            .fondo-footer
+            {
+                margin-top: 1%;
+                background-color: #4CC4D8;
+                min-height: 350px;
+            }
+            
+            img 
+            {
+                margin-top: 20%
+            }
+            
+            .info-contacto
+            {
+                margin-top: 5%;
+                
+                
+                span 
+                {
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    font-weight: 300;
+                }
+                
+                .divide
+                {
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    border-bottom: 1px solid white;
+                }
+                
+                p 
+                {
+                    font-style: italic;
+                    font-weight: 300;
+                    font-size: 18px;
+                }
+                
+                .redes-sociales
+                {
+                    a 
+                    {
+                        color: #4CC4D8;
+                    }
+    
+                    a:hover
+                    {
+                        color: #AA4A9B;
+                    }
+                    
+                }
+            }
+        
+}
