@@ -109,48 +109,48 @@ class Categorias extends MY_Controller {
 
 	public function editar_categoria($id = '')
 	{
-//		$class = strtolower(get_class());
-//		if (! $this->categoria->exists($id)) {
-//			redirect($class);
-//		}
-//		$this->load->helper('formulario');
-//		$edit = $this->categoria->get($id)->row_array();
-//		$this->form_validation->set_error_delimiters('<span class="help-block col-lg-4">', '</span>');
-//		$this->form_validation->set_rules('datos[nombre]', 'nombre', 'required|max_length[150]|trim');
-//
-//		$config['upload_path'] = './assets/img/categorias';
-//	    $config['allowed_types'] = 'png';
-//	    $config['max_size'] = '10000';
-//	    $config['encrypt_name'] = TRUE;
-//
-//	    $this->load->library('upload', $config); 
-//
-//
-//		if($this->upload->do_upload('archivo')){
-//			$aux = $this->upload->data();
-//			$update = array_merge($this->input->post('datos'), array('foto' => $aux['file_name']));
-//			if ($this->categoria->update($update, $id) !== FALSE) {
-//				$this->session->set_flashdata('msg_success', 'Los datos de la categoria han sido actualizados.');
-//				redirect($class);
-//			} 
-//		}
-//
-//		if ($this->categoria->update($this->input->post('datos'), $id) !== FALSE) {
-//			$this->session->set_flashdata('msg_success', 'Los datos de la categoria han sido actualizados.');
-//			redirect($class);
-//		} else {
-//			
-//		}
-//
-//		if ($this->input->post('datos')) {
-//			$datos = $this->input->post('datos');
-//		} else {
-//			$datos = $edit;
-//		}
-//		$datos = $this->categoria->prepare_data($datos);
-//		$datos['class'] = $class;
-//		$datos['id'] = $id;
-		$this->load->view('categorias/form');
+		$class = strtolower(get_class());
+		if (! $this->categoria->exists($id)) {
+			redirect($class);
+		}
+		$this->load->helper('formulario');
+		$edit = $this->categoria->get($id)->row_array();
+		$this->form_validation->set_error_delimiters('<span class="help-block col-lg-4">', '</span>');
+		$this->form_validation->set_rules('datos[nombre]', 'nombre', 'required|max_length[150]|trim');
+
+		$config['upload_path'] = './assets/img/categorias';
+	    $config['allowed_types'] = 'png';
+	    $config['max_size'] = '10000';
+	    $config['encrypt_name'] = TRUE;
+
+	    $this->load->library('upload', $config); 
+
+
+		if($this->upload->do_upload('archivo')){
+			$aux = $this->upload->data();
+			$update = array_merge($this->input->post('datos'), array('foto' => $aux['file_name']));
+			if ($this->categoria->update($update, $id) !== FALSE) {
+				$this->session->set_flashdata('msg_success', 'Los datos de la categoria han sido actualizados.');
+				redirect($class);
+			} 
+		}
+
+		if ($this->categoria->update($this->input->post('datos'), $id) !== FALSE) {
+			$this->session->set_flashdata('msg_success', 'Los datos de la categoria han sido actualizados.');
+			redirect($class);
+		} else {
+			
+		}
+
+		if ($this->input->post('datos')) {
+			$datos = $this->input->post('datos');
+		} else {
+			$datos = $edit;
+		}
+		$datos = $this->categoria->prepare_data($datos);
+		$datos['class'] = $class;
+		$datos['id'] = $id;
+		$this->load->view('categorias/form',$datos);
 		
 	}
 
